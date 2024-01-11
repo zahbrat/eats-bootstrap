@@ -1,0 +1,33 @@
+$color: #FA4A0C;
+
+.header__link {
+  transition: 0.5s;
+
+  &:hover {
+    color: $color;
+  }
+}
+
+.promo {
+  padding: 100px 0;
+  background-image: url(../img/bg1.png);
+  background-size: cover;
+
+  button {
+    &:first-child {
+      background: $color;
+    }
+  }
+}
+
+.order {
+  padding: 15% 0;
+  height: 516px;
+  background-image: url(../img/bg2.png);
+
+  button {
+    &:first-child {
+      background: $color;
+    }
+  }
+}
